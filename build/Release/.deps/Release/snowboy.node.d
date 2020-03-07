@@ -1,0 +1,1 @@
+cmd_Release/snowboy.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.11 -arch x86_64 -L./Release -stdlib=libc++ -L/usr/local/opt/ruby/lib -o Release/snowboy.node Release/obj.target/snowboy/swig/Node/snowboy.o -lcblas /Users/guerrerocarlos/Repositorios/node-hotworddetector/node_modules/snowboy/lib/osx/libsnowboy-detect.a
